@@ -35,7 +35,7 @@ export default {
     ...mapActions(['setSocketState', 'setMessages', 'resetStateMessages', 'getUserDetails'])
   },
   mounted() {
-    socket = io(`https://gentle-plateau-09414.herokuapp.com/`);
+    socket = io(`https://gentle-plateau-09414.herokuapp.com`);
     this.setSocketState(socket)
     
      
