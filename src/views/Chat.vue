@@ -35,7 +35,7 @@ export default {
     ...mapActions(['setSocketState', 'setMessages', 'resetStateMessages', 'getUserDetails'])
   },
   mounted() {
-    socket = io();
+    socket = io('/api');
     this.setSocketState(socket)
     
      
