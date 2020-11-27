@@ -4,7 +4,7 @@ module.exports = {
     devServer: {
         proxy: {
             '/': {
-                target: `https://gentle-plateau-09414.herokuapp.com`
+                target: 'https://gentle-plateau-09414.herokuapp.com'
             }
         }
     }
